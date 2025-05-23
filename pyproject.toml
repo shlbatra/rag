@@ -1,0 +1,30 @@
+[project]
+name = "rag_from_scratch"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = "==3.10"
+dependencies = [
+    "langchain_community",
+    "tiktoken", 
+    "langchain-anthropic", 
+    "langchainhub",
+    "chromadb", 
+    "langchain",
+    "python-dotenv",
+    "ipykernel",
+    "beautifulsoup4",
+    "langchain-openai",
+    "sentence-transformers",
+    "youtube-transcript-api",
+    "pytube",
+    "ragatouille",
+    "cohere",
+    "gpt4all",
+    "langgraph",
+    "nomic[local]", 
+    "langchain-nomic",
+    "langchain_mistralai",
+    "matplotlib",
+    "umap",
+    "langchain_chroma" 
+]

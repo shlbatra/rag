@@ -1,0 +1,24 @@
+Question -> Indexing         -> Relevant Doc        ->          Answer
+        Index + Documents       Retrieval                   Generation (Context Window)
+
+Active RAG
+- When to retrive based on context of questions
+- When to re-write question for better retrieval
+- When to discard irrelevant documents and re-try retrieval
+
+Active RAG
+- LLM decides when and what to retrive based upon retrieval and / or generation
+
+Levels of Control
+1. Use LLM to choose step output (Chain)
+2. Use LLM to choose between steps (router) - GraphDB vs Index
+3. Use LLM to choose between steps with loops. All transition options are enumerated in code. (State Machine) ex, LangGraph
+4. LangGraph allows for layout of diverse RAG flows and supports more general process of "flow engineering" - sophisticated workflows in clean way.
+5. LangGraph is an agent on guardrails; Less flexible and more reliable -> Smaller LLM (Cmd + R - cohere model)
+6. Agent More flexible and less reliable, open ended decisions ; less reliable; Larger LLM (Cmd + R plus - cohere model)
+7. Run model locally with olama
+8. Quantize models 
+
+Qn. Is RAG Dead ?
+1. Context windows are getting larger
+2. Document level retrieval is the way to go for now.
