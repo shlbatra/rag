@@ -1,3 +1,6 @@
-.env/
+*/.env
+rag_example1/.env
+*.env
+*.env*
 .env.local
 .env.*.local
