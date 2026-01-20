@@ -4,3 +4,16 @@ rag_example1/.env
 *.env*
 .env.local
 .env.*.local
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+/uploads
+.env
